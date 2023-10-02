@@ -1,9 +1,6 @@
 import pygame as p
 p.init()
-
-
-print("When I say Hey You say ho")
-print("hey")
-x = input()
-if x == "ho":
-    print("Yayyy")
+while True:
+	for event in p.event.get():
+    	if event.type == p.QUIT():
+        	p.quit()
