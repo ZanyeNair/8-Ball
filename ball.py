@@ -13,3 +13,4 @@ class Ball:
                 self.x = x
                 self.y = y
                 self.location = (x, y)
+                
